@@ -1,0 +1,138 @@
+
+:root {
+  --primary-color: #f0b501;
+  --primary-text-size: 18px;
+  --main-faimily: "Arial";
+  --bold-faimily:  "Arial-BoldMT";
+}
+@media screen and (min-width: 1180px){
+	.fencecrm-banner__heading {
+     padding: 60px 0px 43px;
+     font-size: 60px;
+ }
+ .fencecrm-card__inner {
+    margin-top: 40px;
+    padding: 20px 220px;
+}
+.testimonial-box p {
+    padding: 0px 140px;
+ }
+ .fencecrm-faq__inner {
+    padding: 0px 140px;
+}
+.fence-crm__tab {
+    font-size: 26px
+}
+.tab-content li a{
+    font-size: 22px;
+}
+.fence-crm__input-area button {
+font-size: 20px;
+}
+h2.heading{
+    font-size: 42px;
+}
+p.heading{
+         font-size: 24px;
+}
+#fencecrm-card h5.card-title{
+        font-size: 24px;
+}
+#fencecrm-card p.card-text{
+        margin-top: 30px;
+}
+#testimonial h3{
+    font-size: 30px;
+}
+#are-you-ready .fence-crm__input-area input{
+        width: 70%;
+}
+#are-you-ready .fence-crm__input-area input::-webkit-input-placeholder {
+ 
+    font-size: 30px
+}
+
+#are-you-ready .fence-crm__input-area input:-ms-input-placeholder {
+     font-size: 30px}
+
+#are-you-ready .fence-crm__input-area input:-moz-placeholder {
+ 
+    font-size: 30px}
+
+#are-you-ready .fence-crm__input-area input::-moz-placeholder {
+ 
+    font-size: 30px;}
+
+}
+
+@media screen and (max-width: 576px){
+    
+     
+     section#are-you-ready{
+       padding: 10px;
+     }
+     section#nav-bar{
+        padding: 0px 10px;
+     }
+     section#fencecrm-banner{
+        padding: 20px 0px;
+     }
+     .top-bar__inner {
+        padding-right: 10px;
+     }
+     .footer-1{
+        padding: 10px;
+     }
+
+
+}
+@media (max-width: 992px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 50px;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 75%;
+        height: 100%;
+    }
+
+    .navbar-collapse.collapsing {
+        left: -75%;
+        transition: height 0s ease;
+        background-color: whitesmoke;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        transition: left 300ms ease-in-out;
+        background-color: whitesmoke;
+        z-index: 99;
+    }
+
+    .navbar-toggler.collapsed ~ .navbar-collapse {
+        transition: left 500ms ease-in-out;
+    }
+    .btn-outline-maincolor{
+        display: none;
+     }
+     section#are-you-ready{
+       padding: 10px;
+     }
+     section#nav-bar{
+        padding: 0px 10px;
+     }
+     section#fencecrm-banner{
+        padding: 20px 0px;
+     }
+     .top-bar__inner {
+        padding-right: 10px;
+     }
+     .footer-1{
+        padding: 10px;
+     }
+     section#fencecrm-faq{
+        padding: 10px;
+     }
+}
