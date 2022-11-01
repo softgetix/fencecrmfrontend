@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/build/build/static/js/main.ff803186.js",
+    "static/js/787.18c69f69.chunk.js": "/build/build/static/js/787.18c69f69.chunk.js",
+    "index.html": "/build/build/index.html",
+    "main.ff803186.js.map": "/build/build/static/js/main.ff803186.js.map",
+    "787.18c69f69.chunk.js.map": "/build/build/static/js/787.18c69f69.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ff803186.js"
+  ]
+}
