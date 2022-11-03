@@ -1,7 +1,7 @@
-import { Fragment } from "react"
+import { React } from "react"
 const Banner = () => {
 return (
-    <Fragment>
+    <React.Fragment>
         <section id="fencecrm-banner">
          <div className="fence-crm__container">
             <div className="row">
@@ -66,7 +66,7 @@ return (
             </div>
          </div>
       </section>
-    </Fragment>
+    </React.Fragment>
 );
 
 }

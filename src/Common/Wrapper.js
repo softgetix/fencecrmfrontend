@@ -1,13 +1,14 @@
-import { React, Fragment } from "react";
+import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-function Wrapper(props)  {
-    return (
-        <Fragment>
-            <Header />
-            {props.children}
-            <Footer />
-        </Fragment>
-    );
+const Wrapper = (props) => {
+  return (
+<React.Fragment>
+    <Header/>
+    {props.children}
+    <Footer/>
+  </React.Fragment>
+  );
 }
+
 export default Wrapper;
