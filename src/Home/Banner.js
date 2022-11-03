@@ -13,10 +13,10 @@ return (
                      <div className="fencecrm-banner__tab-panel">
                         <ul className="nav nav-tabs fence__nav" id="myTab" role="tablist">
                            <li className="nav-item" role="presentation">
-                              <a className="fence-crm__tab active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"  role="tab" aria-controls="home" aria-selected="true">CRM</a>
+                              <a href="/" className="fence-crm__tab active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"  role="tab" aria-controls="home" aria-selected="true">CRM</a>
                            </li>
                            <li className="nav-item" role="presentation">
-                              <a className="fence-crm__tab" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"  role="tab" aria-controls="profile" aria-selected="false">TASK & PROJECTS</a>
+                              <a href="/" className="fence-crm__tab" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"  role="tab" aria-controls="profile" aria-selected="false">TASK & PROJECTS</a>
                            </li>
                         </ul>
                         <br/>
@@ -60,7 +60,7 @@ return (
                      
                   </div>
                   <div className="col-md-12 col-lg-7 col-sm-12 col-xs-12">
-                     <img src="assets/images/img7.png" width="100%;"/>
+                     <img src="assets/images/img7.png" alt="img" width="100%;"/>
                   </div>
                </div>
             </div>
