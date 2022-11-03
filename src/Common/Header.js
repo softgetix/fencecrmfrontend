@@ -14,7 +14,7 @@ const Header = () => {
                      <a className="nav-link top-bar__link" href="#">BLOGS</a>
                   </li>
                   <li className="nav-item">
-                     <a className="nav-link top-bar__link" href="#">LOGIN</a>
+                     <a className="nav-link top-bar__link" href="https://fencecrm.com/root/login">LOGIN</a>
                   </li>
                </ul>
             </div>
@@ -46,8 +46,9 @@ const Header = () => {
                      </li>
                   </ul>
                </div>
-               <button className="btn btn-lg btn-outline-maincolor" type="button">FREE SIGNUP <i className="fa-sharp fa-solid fa-angles-right ikon"></i></button>
-            </nav>
+
+              <a href="https://fencecrm.com/root/get-started"><button className="btn btn-lg btn-outline-maincolor" type="button">FREE SIGNUP <i className="fa-sharp fa-solid fa-angles-right ikon"></i></button>
+              </a></nav>
          </div>
       </section>
         </Fragment>
