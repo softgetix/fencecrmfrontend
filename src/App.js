@@ -6,7 +6,6 @@ function App() {
     <Fragment>
       <Home />
     </Fragment>
-    
   );
 }
 
