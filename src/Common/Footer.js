@@ -26,8 +26,8 @@ const Footer = () => {
                                     </ul>
                                 </div>
                                 <div className="db-block">
-                                    <p className="footer-text">Call us at <a>+1234567865</a></p>
-                                    <p className="footer-text">email us at <a>info@babagautam.com</a></p>
+                                    <p className="footer-text">Call us at <a href="tel:+91-731-4002699">+91-731-4002699</a></p>
+                                    <p className="footer-text">email us at <a href="mail:support@fencecrm.com">support@fencecrm.com</a></p>
                                 </div>
                             </div>
                         </div>
