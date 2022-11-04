@@ -115,7 +115,10 @@ const Banner = () => {
                   </div>
                 </div>
                 <div className="fence-crm-banner__form-area">
-                  <form method="post">
+                  <form
+                    method="get"
+                    action="https://fencecrm.com/root/get-started"
+                  >
                     <div className="fence-crm__input-area rounded-pill">
                       <input
                         type="email"

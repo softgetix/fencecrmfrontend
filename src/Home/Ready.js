@@ -9,7 +9,7 @@ const Ready = () => {
               ARE YOU READY TO START ?
             </h1>
             <div>
-              <form method="post">
+              <form method="get" action="https://fencecrm.com/root/get-started">
                 <div className="fence-crm__input-area rounded-pill">
                   <input
                     type="email"
@@ -24,7 +24,7 @@ const Ready = () => {
             </div>
             <div className="are-you-ready__message">
               <i className="fa fa-check-square-o" aria-hidden="true"></i>
-              <span> Free for 30 Users</span>
+              <span> Free for 30 Days</span>
             </div>
           </div>
         </div>

@@ -497,10 +497,11 @@ ul.social{
     list-style: none;
 }
 
-.footer-text {
+.footer-text,.footer-text a  {
 	color: white;
 	font-family: var(--bold-faimily);
 	font-size: 22px;
+	text-decoration: none;
 }
 .footer-text a{
 	border-bottom: 4px solid var(--primary-color);
