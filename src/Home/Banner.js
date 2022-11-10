@@ -1,4 +1,5 @@
 import React from "react";
+import BannerLogo from '../assets/images/img7.png';
 
 const Banner = () => {
   return (
@@ -138,7 +139,7 @@ const Banner = () => {
                 </div>
               </div>
               <div className="col-md-12 col-lg-7 col-sm-12 col-xs-12">
-                <img src="assets/images/img7.png" alt="img" width="100%;" />
+                <img src={BannerLogo} alt="img" width="100%;" />
               </div>
             </div>
           </div>
