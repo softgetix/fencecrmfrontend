@@ -22,7 +22,7 @@ const Testimonial = () => {
                       <img
                         className="card-img-top"
                         src="mokeup/FenceCRM/icons/fence.png"
-                        alt="Card image cap"
+                        alt=" Fence"
                       />
                       <br />
                       <div className="card-body">
@@ -46,7 +46,7 @@ const Testimonial = () => {
                       <img
                         className="card-img-top"
                         src="mokeup/FenceCRM/icons/fence.png"
-                        alt="Card image cap"
+                        alt="fence"
                       />
                       <br />
                       <div className="card-body">
@@ -70,7 +70,7 @@ const Testimonial = () => {
                       <img
                         className="card-img-top"
                         src="mokeup/FenceCRM/icons/fence.png"
-                        alt="Card image cap"
+                        alt="fence"
                       />
                       <br />
                       <div className="card-body">

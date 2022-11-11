@@ -634,3 +634,18 @@ ul.footer-menu{
 .db-block{
 	display: block;
 }
+ul.navbar-nav{
+	position: relative;
+}
+.disbale-nav{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	position: absolute;
+	top: 0%;
+	left: 100%;
+	background-color: var(--primary-color);
+	color: white;
+	font-size: 20px;
+	border: 2px solid;
+}

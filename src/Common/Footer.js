@@ -8,20 +8,20 @@ const Footer = () => {
                         <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                             <div className="footer-1">
                                 <div>
-                                    <img src="mokeup/img3.png" className="fence-crm__main-logo" />
+                                    <img src="mokeup/img3.png" className="fence-crm__main-logo" alt="gautam" />
                                 </div>
 
                                 <div className="gautam">
                                     <ul className="social">
                                         <li>
-                                            <a href="#"><i className="fa fa-facebook" aria-hidden="true"></i>
+                                            <a href="fencecrm.com"><i className="fa fa-facebook" aria-hidden="true"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
+                                            <a href="fencecrm.com"><i className="fa-brands fa-linkedin-in"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#"><i className="fa-brands fa-twitter"></i></a>
+                                            <a href="fencecrm.com"><i className="fa-brands fa-twitter"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -39,19 +39,19 @@ const Footer = () => {
                             <ul className="contact">
 
                                 <li>
-                                    <a href="#">Home</a>
+                                    <a href="fencecrm.com">Home</a>
                                 </li>
                                 <li>
-                                    <a href="#">About</a>
+                                    <a href="fencecrm.com">About</a>
                                 </li>
                                 <li>
-                                    <a href="#">Blog</a>
+                                    <a href="fencecrm.com">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="#">Gallery </a>
+                                    <a href="fencecrm.com">Gallery </a>
                                 </li>
                                 <li>
-                                    <a href="#">Contact</a>
+                                    <a href="fencecrm.com">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -62,19 +62,19 @@ const Footer = () => {
                             <ul className="contact">
 
                                 <li>
-                                    <a href="#">Home</a>
+                                    <a href="fencecrm.com">Home</a>
                                 </li>
                                 <li>
-                                    <a href="#">About</a>
+                                    <a href="fencecrm.com">About</a>
                                 </li>
                                 <li>
-                                    <a href="#">Blog</a>
+                                    <a href="fencecrm.com">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="#">Gallery </a>
+                                    <a href="fencecrm.com">Gallery </a>
                                 </li>
                                 <li>
-                                    <a href="#">Contact</a>
+                                    <a href="fencecrm.com">Contact</a>
                                 </li>
                             </ul>
                         </div>

@@ -27,7 +27,7 @@ const Card = () => {
                     <img
                       className="card-img-top"
                       src="mokeup/FenceCRM/icons/fence.png"
-                      alt="Card image cap"
+                      alt="Card  cap"
                     />
                     <div className="card-body">
                       <h5 className="card-title">LOREM IPSUM</h5>
@@ -45,7 +45,7 @@ const Card = () => {
                     <img
                       className="card-img-top"
                       src="mokeup/FenceCRM/icons/fence.png"
-                      alt="Card image cap"
+                      alt="Card  cap"
                     />
                     <div className="card-body">
                       <h5 className="card-title">LOREM IPSUM</h5>
@@ -63,7 +63,7 @@ const Card = () => {
                     <img
                       className="card-img-top"
                       src="mokeup/FenceCRM/icons/fence.png"
-                      alt="Card image cap"
+                      alt="Card  cap"
                     />
                     <div className="card-body">
                       <h5 className="card-title">LOREM IPSUM</h5>
@@ -81,7 +81,7 @@ const Card = () => {
                     <img
                       className="card-img-top"
                       src="mokeup/FenceCRM/icons/fence.png"
-                      alt="Card image cap"
+                      alt="Card  cap"
                     />
                     <div className="card-body">
                       <h5 className="card-title">LOREM IPSUM</h5>
@@ -99,7 +99,7 @@ const Card = () => {
                     <img
                       className="card-img-top"
                       src="mokeup/FenceCRM/icons/fence.png"
-                      alt="Card image cap"
+                      alt="Card  cap"
                     />
                     <div className="card-body">
                       <h5 className="card-title">LOREM IPSUM</h5>

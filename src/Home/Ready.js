@@ -9,9 +9,10 @@ const Ready = () => {
               ARE YOU READY TO START ?
             </h1>
             <div>
-              <form method="get" action="https://fencecrm.com/root/get-started">
+              <form method="get" action="https://get.fencecrm.com/get-started">
                 <div className="fence-crm__input-area rounded-pill">
                   <input
+                  required=""
                     type="email"
                     placeholder="Enter Your Email id"
                     name="email"

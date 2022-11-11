@@ -17,7 +17,7 @@ const Ikon = () => {
               <div className="col col-xs-6">
                 <div className="ikon-box">
                   <br />
-                  <img src="mokeup/FenceCRM/icons/coins.png" />
+                  <img src="mokeup/FenceCRM/icons/coins.png"  alt="coin" />
                   <br />
                   <br />
                   <p>LOREM ISPSUM LOREM</p>
@@ -26,7 +26,7 @@ const Ikon = () => {
               <div className="col col-xs-6">
                 <div className="ikon-box">
                   <br />
-                  <img src="mokeup/FenceCRM/icons/mail.png" />
+                  <img src="mokeup/FenceCRM/icons/mail.png" alt="mail" />
                   <br />
                   <br />
                   <p>LOREM ISPSUM LOREM</p>
@@ -35,7 +35,7 @@ const Ikon = () => {
               <div className="col col-xs-6">
                 <div className="ikon-box">
                   <br />
-                  <img src="mokeup/FenceCRM/icons/organization.png" />
+                  <img src="mokeup/FenceCRM/icons/organization.png" alt="organization" />
                   <br />
                   <br />
                   <p>LOREM ISPSUM LOREM</p>
@@ -44,7 +44,7 @@ const Ikon = () => {
               <div className="col col-xs-6">
                 <div className="ikon-box">
                   <br />
-                  <img src="mokeup/FenceCRM/icons/stock-market.png" />
+                  <img src="mokeup/FenceCRM/icons/stock-market.png" alt="stock-market" />
                   <br />
                   <br />
                   <p>LOREM ISPSUM LOREM</p>
@@ -53,7 +53,7 @@ const Ikon = () => {
               <div className="col col-xs-6">
                 <div className="ikon-box">
                   <br />
-                  <img src="mokeup/FenceCRM/icons/worldwide.png" />
+                  <img src="mokeup/FenceCRM/icons/worldwide.png" alt="worldwide" />
                   <br />
                   <br />
                   <p>LOREM ISPSUM LOREM</p>
@@ -64,7 +64,7 @@ const Ikon = () => {
               <div className="col col-xs-6">
                 <div className="ikon-box">
                   <br />
-                  <img src="mokeup/FenceCRM/icons/coins.png" />
+                  <img src="mokeup/FenceCRM/icons/coins.png" alt="coins" />
                   <br />
                   <br />
                   <p>LOREM ISPSUM LOREM</p>
@@ -73,7 +73,7 @@ const Ikon = () => {
               <div className="col col-xs-6">
                 <div className="ikon-box">
                   <br />
-                  <img src="mokeup/FenceCRM/icons/mail.png" />
+                  <img src="mokeup/FenceCRM/icons/mail.png"  alt="mail"/>
                   <br />
                   <br />
                   <p>LOREM ISPSUM LOREM</p>
@@ -82,7 +82,7 @@ const Ikon = () => {
               <div className="col col-xs-6">
                 <div className="ikon-box">
                   <br />
-                  <img src="mokeup/FenceCRM/icons/organization.png" />
+                  <img src="mokeup/FenceCRM/icons/organization.png" alt="organization" />
                   <br />
                   <br />
                   <p>LOREM ISPSUM LOREM</p>
@@ -91,7 +91,7 @@ const Ikon = () => {
               <div className="col col-xs-6">
                 <div className="ikon-box">
                   <br />
-                  <img src="mokeup/FenceCRM/icons/stock-market.png" />
+                  <img src="mokeup/FenceCRM/icons/stock-market.png" alt="stock market" />
                   <br />
                   <br />
                   <p>LOREM ISPSUM LOREM</p>
@@ -100,7 +100,7 @@ const Ikon = () => {
               <div className="col col-xs-6">
                 <div className="ikon-box">
                   <br />
-                  <img src="mokeup/FenceCRM/icons/worldwide.png" />
+                  <img src="mokeup/FenceCRM/icons/worldwide.png" alt="worldwide" />
                   <br />
                   <br />
                   <p>LOREM ISPSUM LOREM</p>

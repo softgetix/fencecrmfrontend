@@ -86,7 +86,14 @@ p.heading{
 
 
 }
+
 @media (max-width: 992px) {
+    .main-button{
+        display: none;
+    }
+    .fence-crm__container{
+        padding: 0px 20px;
+    }
     .navbar-collapse {
         position: fixed;
         top: 50px;
@@ -94,8 +101,9 @@ p.heading{
         padding-left: 15px;
         padding-right: 15px;
         padding-bottom: 15px;
-        width: 75%;
+        width: 30%;
         height: 100%;
+        padding-top: 20px;
     }
 
     .navbar-collapse.collapsing {
@@ -114,9 +122,7 @@ p.heading{
     .navbar-toggler.collapsed ~ .navbar-collapse {
         transition: left 500ms ease-in-out;
     }
-    .btn-outline-maincolor{
-        display: none;
-     }
+    
      section#are-you-ready{
        padding: 10px;
      }
@@ -136,3 +142,4 @@ p.heading{
         padding: 10px;
      }
 }
+
