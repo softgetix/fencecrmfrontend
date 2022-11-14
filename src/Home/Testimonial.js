@@ -17,7 +17,7 @@ const Testimonial = () => {
             <div className="col-md-12">
               <div className="testimonial-box__inner">
                 <div className="row text-center testimonial-boxes">
-                  <div className="col-md-6 col-lg-4">
+                  <div className="col-md-4 col-sm-12 col-lg-4">
                     <div className="card">
                       <img
                         className="card-img-top"
@@ -41,7 +41,7 @@ const Testimonial = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6 col-lg-4">
+                  <div className="col-md-4 col-sm-4">
                     <div className="card">
                       <img
                         className="card-img-top"
@@ -65,7 +65,7 @@ const Testimonial = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6 col-lg-4">
+                  <div className="col-md-4 col-sm-4">
                     <div className="card">
                       <img
                         className="card-img-top"

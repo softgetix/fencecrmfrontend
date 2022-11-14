@@ -88,6 +88,9 @@ p.heading{
 }
 
 @media (max-width: 992px) {
+    .disbale-nav{
+        display: block;
+    }
     .main-button{
         display: none;
     }

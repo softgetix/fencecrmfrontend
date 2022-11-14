@@ -13,7 +13,7 @@ const Banner = () => {
           </div>
           <div className="col-md-12">
             <div className="row">
-              <div className="col-md-12 col-lg-5 col-sm-12 col-xs-12">
+              <div className="col-md-5 col-lg-5 col-sm-5 col-xs-5">
                 <div className="fencecrm-banner__tab-panel">
                   <ul
                     className="nav nav-tabs fence__nav"
@@ -139,7 +139,7 @@ const Banner = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-12 col-lg-7 col-sm-12 col-xs-12">
+              <div className="col-md-7 col-lg-7 col-sm-7 col-xs-7">
                 <img src={BannerLogo} alt="img" width="100%;" />
               </div>
             </div>
