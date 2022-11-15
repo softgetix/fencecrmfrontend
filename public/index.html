@@ -51,6 +51,18 @@
 // $('.disbale-nav').on('click',function() {
 //   $('.navbar-collapse').collapse('hide');
 // });
+let interval = 0 
+  setInterval(function() {
+ 
+  if (interval % 2 === 0) {
+    document.getElementById('profile-tab').click();
+   }
+   if(interval % 2 === 1){
+    document.getElementById('home-tab').click();
+   }
+   interval++;
+
+}, 5000);
      </script>
   </body>
 

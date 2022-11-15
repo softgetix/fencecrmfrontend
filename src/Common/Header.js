@@ -8,10 +8,10 @@ const Header = () => {
                <div className="row float-end">
                <ul className="nav">
                   <li className="nav-item">
-                     <a className="nav-link top-bar__link" href="fencecrm.com">TESTIMONIAL</a>
+                     <a className="nav-link top-bar__link" href="https://fencecrm.com/">TESTIMONIAL</a>
                   </li>
                   <li className="nav-item">
-                     <a className="nav-link top-bar__link" href="fencecrm.com">BLOGS</a>
+                     <a className="nav-link top-bar__link" href="https://fencecrm.com/">BLOGS</a>
                   </li>
                   <li className="nav-item">
                      <a className="nav-link top-bar__link" href="https://get.fencecrm.com/login">LOGIN</a>
@@ -24,7 +24,7 @@ const Header = () => {
       <section id="nav-bar">
          <div className="fence-crm__container">
             <nav className="navbar navbar-expand-lg navbar-light">
-               <a className="navbar-brand " href="fencecrm.com">
+               <a className="navbar-brand " href="https://fencecrm.com/">
                <img src="mokeup/img3.png" alt="mokeup" className="fence-crm__main-logo"/>
                </a>
                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,16 +33,16 @@ const Header = () => {
                <div className="collapse navbar-collapse"id="navbarSupportedContent">
                   <ul className="navbar-nav mx-auto">
                      <li className="nav-item">
-                        <a className="nav-link fence-crm__font-style " href="fencecrm.com">PRODUCTS<i className="fa-solid fa-chevron-down ikon-nav-link"></i></a>
+                        <a className="nav-link fence-crm__font-style " href="https://fencecrm.com/">PRODUCTS<i className="fa-solid fa-chevron-down ikon-nav-link"></i></a>
                      </li>
                      <li className="nav-item">
-                        <a className="nav-link fence-crm__font-style" href="fencecrm.com">FEATURES<i className="fa-solid fa-chevron-down ikon-nav-link"></i></a>
+                        <a className="nav-link fence-crm__font-style" href="https://fencecrm.com/">FEATURES<i className="fa-solid fa-chevron-down ikon-nav-link"></i></a>
                      </li>
                      <li className="nav-item">
-                        <a className="nav-link fence-crm__font-style" href="fencecrm.com">PRICING</a>
+                        <a className="nav-link fence-crm__font-style" href="https://fencecrm.com/">PRICING</a>
                      </li>
                      <li className="nav-item">
-                        <a className="nav-link fence-crm__font-style" href="fencecrm.com">RESOURCES <i className="fa-solid fa-chevron-down ikon-nav-link"></i></a>
+                        <a className="nav-link fence-crm__font-style" href="https://fencecrm.com/">RESOURCES <i className="fa-solid fa-chevron-down ikon-nav-link"></i></a>
                      </li>
                      <button className="disbale-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                      <i class="fa fa-times" aria-hidden="true"></i>

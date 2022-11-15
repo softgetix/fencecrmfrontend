@@ -14,14 +14,14 @@ const Footer = () => {
                                 <div className="gautam">
                                     <ul className="social">
                                         <li>
-                                            <a href="fencecrm.com"><i className="fa fa-facebook" aria-hidden="true"></i>
+                                            <a href="https://fencecrm.com/"><i className="fa fa-facebook" aria-hidden="true"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="fencecrm.com"><i className="fa-brands fa-linkedin-in"></i></a>
+                                            <a href="https://fencecrm.com/"><i className="fa-brands fa-linkedin-in"></i></a>
                                         </li>
                                         <li>
-                                            <a href="fencecrm.com"><i className="fa-brands fa-twitter"></i></a>
+                                            <a href="https://fencecrm.com/"><i className="fa-brands fa-twitter"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -39,19 +39,19 @@ const Footer = () => {
                             <ul className="contact">
 
                                 <li>
-                                    <a href="fencecrm.com">Home</a>
+                                    <a href="https://fencecrm.com/">Home</a>
                                 </li>
                                 <li>
-                                    <a href="fencecrm.com">About</a>
+                                    <a href="https://fencecrm.com/">About</a>
                                 </li>
                                 <li>
-                                    <a href="fencecrm.com">Blog</a>
+                                    <a href="https://fencecrm.com/">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="fencecrm.com">Gallery </a>
+                                    <a href="https://fencecrm.com/">Gallery </a>
                                 </li>
                                 <li>
-                                    <a href="fencecrm.com">Contact</a>
+                                    <a href="https://fencecrm.com/">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -62,19 +62,19 @@ const Footer = () => {
                             <ul className="contact">
 
                                 <li>
-                                    <a href="fencecrm.com">Home</a>
+                                    <a href="https://fencecrm.com/">Home</a>
                                 </li>
                                 <li>
-                                    <a href="fencecrm.com">About</a>
+                                    <a href="https://fencecrm.com/">About</a>
                                 </li>
                                 <li>
-                                    <a href="fencecrm.com">Blog</a>
+                                    <a href="https://fencecrm.com/">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="fencecrm.com">Gallery </a>
+                                    <a href="https://fencecrm.com/">Gallery </a>
                                 </li>
                                 <li>
-                                    <a href="fencecrm.com">Contact</a>
+                                    <a href="https://fencecrm.com/">Contact</a>
                                 </li>
                             </ul>
                         </div>
