@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import React from "react";
 const Footer = () => {
     return (
         <Fragment>
@@ -8,10 +9,10 @@ const Footer = () => {
                         <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                             <div className="footer-1">
                                 <div>
-                                    <img src="mokeup/img3.png" className="fence-crm__main-logo" alt="gautam" />
+                                    <img src="mokeup/img3.png" className="fence-crm__main-logo" alt="https://fencecrm.com/" />
                                 </div>
 
-                                <div className="gautam">
+                                <div className="https://fencecrm.com/">
                                     <ul className="social">
                                         <li>
                                             <a href="https://fencecrm.com/"><i className="fa fa-facebook" aria-hidden="true"></i>

@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { React,Fragment } from "react";
 const Header = () => {
     return (
         <Fragment>
@@ -45,7 +45,7 @@ const Header = () => {
                         <a className="nav-link fence-crm__font-style" href="https://fencecrm.com/">RESOURCES <i className="fa-solid fa-chevron-down ikon-nav-link"></i></a>
                      </li>
                      <button className="disbale-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                     <i class="fa fa-times" aria-hidden="true"></i>
+                     <i className="fa fa-times" aria-hidden="true"></i>
                      </button>
                   </ul>
                </div>

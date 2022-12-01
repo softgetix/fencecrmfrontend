@@ -1,6 +1,7 @@
 import React from "react";
 import BannerLogo from '../assets/images/img7.png';
 
+
 const Banner = () => {
   return (
     <React.Fragment>
@@ -21,6 +22,7 @@ const Banner = () => {
                     role="tablist"
                   >
                     <li className="nav-item" role="presentation">
+                      <div id="banner_border_crm" style={{backgroundColor:'red',width:'0%',height:'3px'}}></div>
                       <a
                         href="/"
                         className="fence-crm__tab active"
@@ -35,6 +37,8 @@ const Banner = () => {
                       </a>
                     </li>
                     <li className="nav-item" role="presentation">
+                      
+                    <div id="banner_border_task" style={{backgroundColor:'red',width:'100%',height:'3px'}}></div>
                       <a
                         href="/"
                         className="fence-crm__tab"
@@ -44,7 +48,7 @@ const Banner = () => {
                         role="tab"
                         aria-controls="profile"
                         aria-selected="false"
-                      >
+                      > 
                         TASK & PROJECTS
                       </a>
                     </li>
@@ -58,28 +62,28 @@ const Banner = () => {
                       aria-labelledby="home-tab"
                     >
                       <li>
-                        <a href="gautam">Leads, Deals, Contacts, Companies</a>
+                        <a href="https://fencecrm.com/">Leads, Deals, Contacts, Companies</a>
                       </li>
                       <li>
-                        <a href="gautam">Quotes, Invoices</a>
+                        <a href="https://fencecrm.com/">Quotes, Invoices</a>
                       </li>
                       <li>
-                        <a href="gautam">Online payments</a>
+                        <a href="https://fencecrm.com/">Online payments</a>
                       </li>
                       <li>
-                        <a href="gautam">Sales automation</a>
+                        <a href="https://fencecrm.com/">Sales automation</a>
                       </li>
                       <li>
-                        <a href="gautam">Rules and triggers</a>
+                        <a href="https://fencecrm.com/">Rules and triggers</a>
                       </li>
                       <li>
-                        <a href="gautam">Contact center</a>
+                        <a href="https://fencecrm.com/">Contact center</a>
                       </li>
                       <li>
-                        <a href="gautam">Marketing</a>
+                        <a href="https://fencecrm.com/">Marketing</a>
                       </li>
                       <li>
-                        <a href="gautam">Sales Intelligence</a>
+                        <a href="https://fencecrm.com/">Sales Intelligence</a>
                       </li>
                     </div>
                     <div
@@ -89,28 +93,28 @@ const Banner = () => {
                       aria-labelledby="profile-tab"
                     >
                       <li>
-                        <a href="gautam">Leads, Deals, Contacts, Companies</a>
+                        <a href="https://fencecrm.com/">Leads, Deals, Contacts, Companies</a>
                       </li>
                       <li>
-                        <a href="gautam">Quotes, Invoices</a>
+                        <a href="https://fencecrm.com/">Quotes, Invoices</a>
                       </li>
                       <li>
-                        <a href="gautam">Online payments</a>
+                        <a href="https://fencecrm.com/">Online payments</a>
                       </li>
                       <li>
-                        <a href="gautam">Sales automation</a>
+                        <a href="https://fencecrm.com/">Sales automation</a>
                       </li>
                       <li>
-                        <a href="gautam">Rules and triggers</a>
+                        <a href="https://fencecrm.com/">Rules and triggers</a>
                       </li>
                       <li>
-                        <a href="gautam">Contact center</a>
+                        <a href="https://fencecrm.com/">Contact center</a>
                       </li>
                       <li>
-                        <a href="gautam">Marketing</a>
+                        <a href="https://fencecrm.com/">Marketing</a>
                       </li>
                       <li>
-                        <a href="gautam">Sales Intelligence</a>
+                        <a href="https://fencecrm.com/">Sales Intelligence</a>
                       </li>
                     </div>
                   </div>
