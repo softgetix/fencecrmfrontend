@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import Home from "./Home/Home";
+import './Index.css'
 import './style.css';
 import './assets/carousel/owl-carousel/owl.carousel.css';
 import './assets/carousel/owl-carousel/owl.theme.css';
