@@ -36,6 +36,14 @@
   background: var(--primary-color);
 }
 
+h1{
+	font-family: var(--bold-faimily);
+}
+h3.heading{
+	font-family: var(--bold-faimily);
+    color: #5d5d5d;
+    letter-spacing: 1px;
+}
 body{
 	margin: 0px auto;
 	font-family: "Arial";
@@ -81,10 +89,9 @@ a:hover{
 height: 155px;
 display: flex;
 }
-img.fence-crm__main-logo{
+/* img.fence-crm__main-logo{
  width: 293px;
- height: 76px;
-}
+} */
 
 
 

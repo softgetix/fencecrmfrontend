@@ -1,5 +1,5 @@
 import React from "react";
-import Wrapper from "../Common/Wrapper";
+import Wrapper from "../../Common/Wrapper";
 import Banner from "./Banner";
 import Card from "./Card";
 import Gallery from "./Gallery";

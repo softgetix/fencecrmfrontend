@@ -1,4 +1,5 @@
 import { React,Fragment } from "react";
+import { NavLink } from "react-router-dom";
 const Header = () => {
     return (
         <Fragment>
@@ -8,7 +9,7 @@ const Header = () => {
                <div className="row float-end">
                <ul className="nav">
                   <li className="nav-item">
-                     <a className="nav-link top-bar__link" href="https://fencecrm.com/">TESTIMONIAL</a>
+                     <NavLink activeClassName="active" className="nav-link top-bar__link" to="/" >TESTIMONIAL</NavLink>
                   </li>
                   <li className="nav-item">
                      <a className="nav-link top-bar__link" href="https://fencecrm.com/">BLOGS</a>
@@ -24,16 +25,16 @@ const Header = () => {
       <section id="nav-bar">
          <div className="fence-crm__container">
             <nav className="navbar navbar-expand-lg navbar-light">
-               <a className="navbar-brand " href="https://fencecrm.com/">
+               <NavLink className="navbar-brand " to="/">
                <img src="mokeup/img3.png" alt="mokeup" className="fence-crm__main-logo"/>
-               </a>
+               </NavLink>
                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span className="navbar-toggler-icon"></span>
                </button>
                <div className="collapse navbar-collapse"id="navbarSupportedContent">
                   <ul className="navbar-nav mx-auto">
                      <li className="nav-item">
-                        <a className="nav-link fence-crm__font-style " href="https://fencecrm.com/">PRODUCTS<i className="fa-solid fa-chevron-down ikon-nav-link"></i></a>
+                        <NavLink to="/request-free-demo" activeClassName="active" className="nav-link fence-crm__font-style " >DEMO</NavLink>
                      </li>
                      <li className="nav-item">
                         <a className="nav-link fence-crm__font-style" href="https://fencecrm.com/">FEATURES<i className="fa-solid fa-chevron-down ikon-nav-link"></i></a>

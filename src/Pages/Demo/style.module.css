@@ -1,0 +1,17 @@
+.demoHeading{
+    font-size: 60px;
+}
+.demoTron{
+  padding: 40px 50px;
+  background-color: #f9f9f9;
+}
+.demoForm label{
+  margin: 5px;
+  padding: 5px 0px;
+}
+.demoForm input,.demoForm select{
+ margin: 5px 0px;
+}
+input.checkbox{
+  margin-top: 40px;
+}
