@@ -60,6 +60,9 @@ a:hover{
 	background-color:#241f20;
 	height: 50px;
 }
+label{
+	font-family: var(--bold-faimily);
+}
 .top-bar__inner{
 	height: 50px;
 	padding-top: 4px;
