@@ -8,7 +8,7 @@ const DemoForm = () => {
   const [enteredComapanyName, setEnteredComapanyName] = useState("");
   const [enteredPhone, setEnteredPhone] = useState(NaN);
   const [cType, setCType] = useState("");
-  const [checkBox, setCheckBox] = useState(false);
+  const [checkBox, setCheckBox] = useState();
   const [error, setError] = useState("");
 
   const firstNameChangeHandler = (event) => {
@@ -31,7 +31,8 @@ const DemoForm = () => {
     setCType(event.target.value);
   };
   const checkBoxHandler = (event) => {
-    setCheckBox(event.target.value);
+    setCheckBox(event.target.checked);
+    console.log(event.target.checked);
   };
 
   const formSubmitHandler = (event) => {
@@ -58,28 +59,21 @@ const DemoForm = () => {
    
 
     async function submitForm(formData) {
-     try{
-      const response = await fetch(
-        "https://fencecrm-test-default-rtdb.asia-southeast1.firebasedatabase.app/gautam.json",
-        {
-          method:'POST',
-          body: JSON.stringify(formData),
-          headers:{
-            'Content-Type':'application/json'
+      try {
+        let res = await fetch("https://get.fencecrm.com/fence-admin/form-data", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
           },
-          mode: 'no-cors',
-        }
-      );
-      if(!response.ok){
-        throw new Error('Something Went Wrong');
+          mode:'no-cors',
+          body: JSON.stringify({formData
+          }),
+        });
+        console.log
+      // let resJson = await res.json();
+      } catch (err) {
+        console.log(err);
       }
-     }catch(error){
-      console.log(error);
-       setError(error.message);
-     }
-     
-      //const data = await response.json()
-      
     }
     submitForm(formData);
   };
@@ -164,7 +158,6 @@ const DemoForm = () => {
 
             <div className="form-group form-check">
               <input
-                value={checkBox}
                 type="checkbox"
                 className={styles.checkbox + " form-check-input"}
                 id="exampleCheck1"
