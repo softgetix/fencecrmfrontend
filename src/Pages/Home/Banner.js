@@ -22,7 +22,7 @@ const Banner = () => {
                     role="tablist"
                   >
                     <li className="nav-item" role="presentation">
-                      <div id="banner_border_crm" style={{backgroundColor:'red',width:'0%',height:'3px'}}></div>
+                      {/* <div id="banner_border_crm" style={{backgroundColor:'red',width:'0%',height:'3px'}}></div> */}
                       <a
                         href="/"
                         className="fence-crm__tab active"
@@ -38,7 +38,7 @@ const Banner = () => {
                     </li>
                     <li className="nav-item" role="presentation">
                       
-                    <div id="banner_border_task" style={{backgroundColor:'red',width:'100%',height:'3px'}}></div>
+                    {/* <div id="banner_border_task" style={{backgroundColor:'red',width:'100%',height:'3px'}}></div> */}
                       <a
                         href="/"
                         className="fence-crm__tab"
