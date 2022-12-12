@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Form } from "react-bootstrap";
 import styles from "./style.module.css";
 
 const DemoForm = () => {
@@ -9,8 +10,8 @@ const DemoForm = () => {
   const [enteredPhone, setEnteredPhone] = useState(NaN);
   const [cType, setCType] = useState("");
   const [checkBox, setCheckBox] = useState();
-  const [error, setError] = useState("");
-
+  const [reactError, setError] = useState("");
+  const [msg, setMsg] = useState("");
   const firstNameChangeHandler = (event) => {
     setEnteredFirstName(event.target.value);
   };
@@ -32,7 +33,6 @@ const DemoForm = () => {
   };
   const checkBoxHandler = (event) => {
     setCheckBox(event.target.checked);
-    console.log(event.target.checked);
   };
 
   const formSubmitHandler = (event) => {
@@ -47,32 +47,52 @@ const DemoForm = () => {
       return false;
     }
 
-    let formData = {
-      first_name:enteredFirstName.trim(),
-      last_name:enteredLastName.trim(),
-      email:enteredEmail.trim(),
-      company_name:enteredComapanyName.trim(),
-      phone:enteredPhone.trim(),
-      company_type:cType,
-      promotions:checkBox,
+    var formData = {
+      first_name: enteredFirstName.trim(),
+      last_name: enteredLastName.trim(),
+      email: enteredEmail.trim(),
+      company_name: enteredComapanyName.trim(),
+      phone: enteredPhone.trim(),
+      company_type: cType,
+      promotions: checkBox,
     };
-   
 
-    async function submitForm(formData) {
+    async function submitForm() {
       try {
-        let res = await fetch("https://get.fencecrm.com/fence-admin/form-data", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify({formData
-          }),
-        });
-        console.log
-      // let resJson = await res.json();
-      } catch (err) {
-        console.log(err);
+        const response = await fetch(
+          "https://get.fencecrm.com/fence-admin/form-data",
+          {
+            method: "POST", // *GET, POST, PUT, DELETE, etc.
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(formData), // body data type must match "Content-Type" header
+          }
+        );
+        if (!response.ok) {
+          throw new Error("Something went wrong");
+        }
+        const responseData = await response.json();
+        if (responseData.status) {
+          setMsg("Thank you for contact us we will reach you soon");
+          setCheckBox(false);
+          setEnteredFirstName('');
+          setEnteredLastName('');
+          setEnteredEmail('');
+          setEnteredPhone('');
+          setError('');
+          setEnteredComapanyName('');
+          setCType(setCType);
+        
+
+        } else {
+          setError(responseData[0].msg);
+        }
+      } catch (error) {
+        setError(error.message);
       }
+
+      // parses JSON response into native JavaScript objects
     }
     submitForm(formData);
   };
@@ -83,7 +103,7 @@ const DemoForm = () => {
         <div className={styles.demoTron}>
           <h3 className="heading">See FenceCRM in Action</h3>
           <br />
-          <form className={styles.demoForm} onSubmit={formSubmitHandler}>
+          <form className={styles.demoForm}  onSubmit={formSubmitHandler}>
             <div className="form-group">
               <label htmlFor="firstName">First Name *</label>
               <input
@@ -161,6 +181,7 @@ const DemoForm = () => {
                 className={styles.checkbox + " form-check-input"}
                 id="exampleCheck1"
                 onChange={checkBoxHandler}
+                required
               />
               <label className="form-check-label" htmlFor="exampleCheck1">
                 Yes, I want to get emails from Procore about products,
@@ -174,7 +195,18 @@ const DemoForm = () => {
                 REQUEST <i class="fa-sharp fa-solid fa-angles-right ikon"></i>
               </button>
             </div>
-            <small className="text-danger">{error}</small>
+            <br />
+            {msg !== "" && (
+              <div className="alert alert-success" role="alert">
+                {msg}
+              </div>
+            )}
+
+            {reactError !== "" && (
+              <div className="alert alert-danger" role="alert">
+                {reactError}
+              </div>
+            )}
           </form>
         </div>
       </div>
