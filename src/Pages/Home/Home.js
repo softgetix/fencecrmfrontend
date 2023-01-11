@@ -1,7 +1,7 @@
 import React from "react";
 import Wrapper from "../../Common/Wrapper";
 import Banner from "./Banner";
-import Card from "./Card";
+import Features from "./Features";
 import Gallery from "./Gallery";
 import Testimonial from "./Testimonial";
 import Ikon from "./Ikon";
@@ -12,7 +12,7 @@ const Home = () => {
     <Wrapper>
       <Banner />
       <Gallery />
-      <Card />
+      <Features />
       <Testimonial />
       <Ikon />
       <Faq />

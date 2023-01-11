@@ -18,3 +18,12 @@
 .img2 {
   clip-path: polygon(0% 0%, 0% 0%, 100% 16%, 100% 100%, 0% 100%);
 }
+.additionalFeaturesBg{
+  background-image: url('../../assets/images/fence-gc0fdad231_1280.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.mask{
+  background-color: rgba(0,0,0, 0.7);
+}

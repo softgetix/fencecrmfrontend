@@ -6,7 +6,7 @@ const Ikon = () => {
       <section id="fencecrm-ikons-area">
         <div className="fence-crm__container">
           <div className="row text-center">
-            <h2 className="heading">Lorem Ipsum Dolor sit Amet</h2>
+            <h2 className="heading wow slideInLeft">Lorem Ipsum Dolor sit Amet</h2>
             <p className="heading">
               It is a long established fact that a reader will be distracted by
               the readable content{" "}
