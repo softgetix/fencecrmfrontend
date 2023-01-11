@@ -1,7 +1,5 @@
 import React from "react";
-import BannerLogo from "../../assets/images/img7.png";
-
-const Banner = () => {
+const Banner = (props) => {
   return (
     <React.Fragment>
       <section id="fencecrm-banner">
@@ -11,17 +9,14 @@ const Banner = () => {
               className="fencecrm-banner__heading text-center"
               style={{ paddingBottom: "10px" }}
             >
-              FEATURES
+              {props.Title}
             </h1>
             <div
               className="row justify-content-center"
               style={{ paddingBottom: "60px" }}
             >
               <div className="col-md-10 text-center">
-                <p className="heading text-white">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout
-                </p>
+                <p className="heading text-white">{props.SubTitle}</p>
                 <a
                   href="https://get.fencecrm.com/get-started"
                   className="main-button"
