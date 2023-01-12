@@ -1,7 +1,7 @@
-import { React, Fragment } from "react";
+import  React from "react";
 const Gallery = () => {
   return (
-    <Fragment>
+    <React.Fragment>
       <section id="fencecrm-gallery">
         <div className="fence-crm__container">
           <div className="fencecrm-gallery__carousel">
@@ -17,7 +17,7 @@ const Gallery = () => {
               <div className="item">
                 <a href="https://softgetix.com/">
                   <img
-                    src="https://softgetix.com/wp-content/themes/softgetix/assets/images/logo.svg"
+                    src="https://softgetix.com/_next/image?url=%2Flogo%2Fsoftgetix_logo_new.png&w=256&q=75"
                     alt="Softgetix INC"
                   />
                 </a>
@@ -44,7 +44,7 @@ const Gallery = () => {
           <hr className="gallery__hr" />
         </div>
       </section>
-    </Fragment>
+    </React.Fragment>
   );
 };
 export default Gallery;

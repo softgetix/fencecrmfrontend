@@ -3,7 +3,8 @@ import Home from "./Pages/Home/Home";
 import { Route } from "react-router-dom";
 import Demo from "./Pages/Demo/Index";
 import Features from "./Pages/Features/Features";
-// import Pricing from "../Pricing/Pricing";
+import Pricing from "./Pages/Pricing/Pricing";
+import Support from "./Pages/Support/Support";
 import "./style.css";
 import "./assets/carousel/owl-carousel/owl.carousel.css";
 import "./assets/carousel/owl-carousel/owl.theme.css";
@@ -22,9 +23,12 @@ function App() {
         <Route exact path="/features">
           <Features />
         </Route>
-        {/* <Route exact path="/pricing">
+        <Route exact path="/pricing">
           <Pricing />
-        </Route> */}
+        </Route>
+        <Route exact path="/support">
+          <Support />
+        </Route>
       </React.Fragment>
     </Fragment>
    );

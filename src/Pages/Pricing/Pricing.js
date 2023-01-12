@@ -1,6 +1,6 @@
 import React from "react";
-import Wrapper from "../src/Common/Wrapper";
-import Banner from "../src/Common/UI/Banner";
+import Wrapper from "../../Common/Wrapper";
+import Banner from "../../Common/UI/Banner";
 import Plans from "./Plans";
 const Pricing = () => {
   return (

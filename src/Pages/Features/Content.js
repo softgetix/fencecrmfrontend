@@ -38,7 +38,7 @@ const Content = () => {
                     <div>
                       <div className={"tab-content " + styles.featuresLi}>
                         <div
-                          class="tab-pane fade show active"
+                          className="tab-pane fade show active"
                           id="home"
                           role="tabpanel"
                           aria-labelledby="home-tab"
@@ -93,7 +93,7 @@ const Content = () => {
                       <div>
                         <div className={"tab-content " + styles.featuresLi}>
                           <div
-                            class="tab-pane fade show active"
+                            className="tab-pane fade show active"
                             id="home"
                             role="tabpanel"
                             aria-labelledby="home-tab"
@@ -182,7 +182,7 @@ const Content = () => {
                     <div>
                       <div className={"tab-content " + styles.featuresLi}>
                         <div
-                          class="tab-pane fade show active"
+                          className="tab-pane fade show active"
                           id="home"
                           role="tabpanel"
                           aria-labelledby="home-tab"
@@ -237,7 +237,7 @@ const Content = () => {
                       <div>
                         <div className={"tab-content " + styles.featuresLi}>
                           <div
-                            class="tab-pane fade show active"
+                            className="tab-pane fade show active"
                             id="home"
                             role="tabpanel"
                             aria-labelledby="home-tab"

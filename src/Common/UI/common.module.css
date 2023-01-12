@@ -1,0 +1,6 @@
+.iconStyle{
+    font-size: 100px;
+}
+.iconStyle:hover{
+    color: var(--primary-color);
+}

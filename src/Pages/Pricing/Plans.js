@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import React from "react";
-import { toNamespacedPath } from "path";
 
 const Plans = () => {
   const [plans, setPlans] = useState([]);
@@ -24,8 +23,6 @@ const Plans = () => {
   useEffect(() => {
     fetchPlansHandler();
   }, []);
-
-  console.log(plans);
   return (
     <React.Fragment>
       <section className="content" id="pricing-page">
@@ -34,19 +31,23 @@ const Plans = () => {
             <section className="py-5">
               <div className="container">
                 <div className="row">
-                  {/* {plans.map((plan) => ( */}
-                    <div className="col-lg-4">
+                  {plans.map((plan) => (
+                    <div className="col-lg-4" key={plan.id}>
                       <div className="card bg-warning mb-5 mb-lg-0 rounded-lg shadow">
                         <div className="card-header">
                           <h5 className="card-title text-white-50 text-uppercase text-center">
-                            Essential
+                            {plan.name}
                           </h5>
                           <h6 className="h1 text-white text-center">
-                            $9.00
-                            <span className="h6 text-white-50">/month</span>
+                            ${plan.price}
+                            <span className="h6 text-white-50">
+                              /{plan.interval}
+                            </span>
                           </h6>
                           <div className="text-center text-white">
-                            <span>Free 14-day trial.</span>
+                            <span>
+                              Free {plan.trial_period_days}-day trial.
+                            </span>
                           </div>
                         </div>
                         <div className="card-body bg-light rounded-bottom">
@@ -113,15 +114,21 @@ const Plans = () => {
                             </li>
                           </ul>
                           <a
-                            href="https://get.fencecrm.com/Subscription/purchase?plan=1"
-                            className="btn btn-block btn-warning text-uppercase rounded-lg py-3"
+                            href=""
+                            className="main-button"
                           >
-                            Try For Free
+                            <button
+                              className="btn btn-lg btn-outline-maincolor"
+                              type="button"
+                            >
+                              LEARN MORE {" "}
+                              <i className="fa-sharp fa-solid fa-angles-right ikon"></i>
+                            </button>
                           </a>
                         </div>
                       </div>
                     </div>
-                  {/* ))} */}
+                  ))}
                 </div>
               </div>
             </section>

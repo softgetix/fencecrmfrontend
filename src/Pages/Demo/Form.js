@@ -75,15 +75,13 @@ const DemoForm = () => {
         if (responseData.status) {
           setMsg("Thank you for contact us we will reach you soon");
           setCheckBox(false);
-          setEnteredFirstName('');
-          setEnteredLastName('');
-          setEnteredEmail('');
-          setEnteredPhone('');
-          setError('');
-          setEnteredComapanyName('');
+          setEnteredFirstName("");
+          setEnteredLastName("");
+          setEnteredEmail("");
+          setEnteredPhone("");
+          setError("");
+          setEnteredComapanyName("");
           setCType(setCType);
-        
-
         } else {
           setError(responseData[0].msg);
         }
@@ -102,7 +100,7 @@ const DemoForm = () => {
         <div className={styles.demoTron}>
           <h3 className="heading">See FenceCRM in Action</h3>
           <br />
-          <form className={styles.demoForm}  onSubmit={formSubmitHandler}>
+          <form className={styles.demoForm} onSubmit={formSubmitHandler}>
             <div className="form-group">
               <label htmlFor="firstName">First Name *</label>
               <input
@@ -161,7 +159,7 @@ const DemoForm = () => {
             <div className="form-group">
               <label htmlFor="c-type">Company Type *</label>
               <select
-                class="form-control"
+                className="form-control"
                 onChange={cTypeChangeHandler}
                 required
               >
@@ -183,15 +181,19 @@ const DemoForm = () => {
                 required
               />
               <label className="form-check-label" htmlFor="exampleCheck1">
-                Yes, I want to get emails from Procore about products,
+                Yes, I want to get emails from FenceCRM about products,
                 promotions, events, and featured content at the email address
                 above.
               </label>
             </div>
             <br />
             <div className="row justify-content-center">
-              <button class="btn btn-lg btn-outline-maincolor" type="submit">
-                REQUEST <i class="fa-sharp fa-solid fa-angles-right ikon"></i>
+              <button
+                className="btn btn-lg btn-outline-maincolor"
+                type="submit"
+              >
+                REQUEST{" "}
+                <i className="fa-sharp fa-solid fa-angles-right ikon"></i>
               </button>
             </div>
             <br />
